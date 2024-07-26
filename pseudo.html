@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+      }
+      div:first-child {
+        background-color: aqua;
+      }
+      div:nth-child(2) {
+        background-color: brown;
+      }
+      div:nth-child(3) {
+        background-color: green;
+      }
+      section :last-child {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">box 1</div>
+    <div class="box">box 2</div>
+    <div class="box">box 3</div>
+    <section>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+  </body>
+</html>

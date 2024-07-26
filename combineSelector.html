@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      h1,
+      h3,
+      li {
+        margin: 16px;
+      }
+
+      .text {
+        margin: 16px;
+        padding: 12px;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px;
+      }
+      h1 {
+        margin: 16px;
+      }
+      a.active {
+        color: red;
+      }
+      .text:hover {
+        border: 5px solid rebeccapurple;
+        box-shadow: 10px 10px 10px;
+      }
+
+      div.active {
+        border: 3px solid red;
+        box-shadow: 5px 5px 5px;
+      }
+    </style>
+  </head>
+  <header>
+    <a href="./index.html">Home</a>
+    <a href="./contactus.html">Contact us</a>
+    <a href="#" class="active">Combine Selector </a>
+  </header>
+  <body>
+    <h1>Combine Selector</h1>
+    <h3>Selector</h3>
+    <ul>
+      <li>universal</li>
+      <li>id</li>
+      <li>class</li>
+      <li>element</li>
+    </ul>
+    <h1>Combine Selector</h1>
+    <ul>
+      <li>descendent</li>
+      <li>or</li>
+      <li>general</li>
+      <li>adjacent</li>
+    </ul>
+    <h1>Box-sizing</h1>
+    <div class="text">
+      <p class="text-one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo quasi
+        asperiores a ullam dolores voluptas, temporibus dolor unde
+        exercitationem.
+      </p>
+      <p class="text-one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias natus
+        vero ea amet quas aliquam nostrum fuga magni doloribus debitis?
+      </p>
+    </div>
+
+    <div class="text active">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo quasi
+        asperiores a ullam dolores voluptas, temporibus dolor unde
+        exercitationem.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias natus
+        vero ea amet quas aliquam nostrum fuga magni doloribus debitis?
+      </p>
+    </div>
+
+    <div class="text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo quasi
+        asperiores a ullam dolores voluptas, temporibus dolor unde
+        exercitationem.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias natus
+        vero ea amet quas aliquam nostrum fuga magni doloribus debitis?
+      </p>
+    </div>
+  </body>
+</html>

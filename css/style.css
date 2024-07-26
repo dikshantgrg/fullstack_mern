@@ -1,0 +1,21 @@
+table {
+  margin: 50px;
+  border: 1px solid red;
+  padding: 20px;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  padding: 8px;
+  border: 1px solid red;
+}
+.text {
+  color: aqua;
+  border: 2px solid red;
+}
+
+.foot {
+  text-align: center;
+  font-weight: bold;
+}
