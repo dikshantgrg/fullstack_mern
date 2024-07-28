@@ -1,0 +1,10 @@
+git init
+git remote add orgin giturl
+opt git remote -v
+
+git add file name
+git commit -m ""
+git push orgin branch name 
+
+
+
